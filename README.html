@@ -20,7 +20,7 @@
     <meta name='generator' content='Emanote' />
 
   
-  <link href='tailwind.css?instanceId=bc7c5c81-3033-4602-a98e-49eb9d81c434' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=1341f91d-82e3-4a6b-8128-462456ea78eb' rel='stylesheet' type='text/css' />
 
   <!-- Heist error element -->
   <style type='text/css'>
@@ -231,7 +231,15 @@
     <p class='mb-3'>
       Checkout <a href='https://emanote.srid.ca/examples' class='text-red-600 hover:underline' target='_blank' rel='noopener'>examples</a> and <a href='https://emanote.srid.ca/demo' class='text-red-600 hover:underline' target='_blank' rel='noopener'>demo</a> for next steps.
     </p>
-  
+  <h2 id='running-using-nix' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Running using Nix</h2>
+    <p class='mb-3'>
+      To start the Emanote live server using Nix:
+    </p>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='sh language-sh'>nix run</code></pre></div>
+    <p class='mb-3'>
+      To update Emanote version in flake.nix:
+    </p>
+  <div class='py-0.5 mb-3 text-sm'><pre><code class='sh language-sh'>nix flake lock --update-input emanote</code></pre></div>
   <!-- What goes in this file will appear below the note body-->
 </article>
             <div class='flex flex-col lg:flex-row lg:space-x-2'>
