@@ -4,14 +4,14 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    emanote-template – Emanote Template
+    GitHub Pages – Emanote Template
   </title>
   
     
       <meta property='og:description' content />
       <meta property='og:site_name' content='Emanote Template' />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='emanote-template' />
+      <meta property='og:title' content='GitHub Pages' />
     
     
       <base href='/emanote-template/' />
@@ -20,7 +20,7 @@
     <meta name='generator' content='Emanote' />
 
   
-  <link href='tailwind.css?instanceId=d7b536ac-7ae2-46fd-9342-f51e7cb39981' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=a6b44979-f211-40a7-891a-882647926bd3' rel='stylesheet' type='text/css' />
 
   <!-- Heist error element -->
   <style type='text/css'>
@@ -175,8 +175,8 @@
       </svg>
       
   
-    <a class='font-bold text-red-600 hover:underline truncate' title='emanote-template' href='README'>
-      emanote-template
+    <a class='font-bold text-red-600 hover:underline truncate' title='GitHub Pages' href='github-pages'>
+      GitHub Pages
     </a>
     
       
@@ -199,72 +199,15 @@
           <main class='px-4 py-4'>
             <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    emanote-template
+    GitHub Pages
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
     <p class='mb-3'>
-      A template repository to create your own Markdown-based <a href='https://github.com/srid/emanote' class='text-red-600 hover:underline' target='_blank' rel='noopener'>Emanote</a> notebook with VSCode support, as well as to publish it to GitHub Pages.
+      <a href='https://pages.github.com/' class='text-red-600 hover:underline' target='_blank' rel='noopener'>GitHub Pages</a> is an easy way to deploy and host static websites on GitHub.
     </p>
-  
-    <p class='mb-3'>
-      See <a href='https://emanote.srid.ca/resources/emanote-template' class='text-red-600 hover:underline' target='_blank' rel='noopener'>https://emanote.srid.ca/resources/emanote-template</a> for details.
-    </p>
-  <h2 id='using-this-template' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Using this template</h2>
-    <p class='mb-3'>
-      Click the “Use this template” green button on Github, and in the resulting repository make the following modifications,
-    </p>
-  
-    <ul class='my-3 ml-6 space-y-1 list-decimal list-inside'>
-      
-        <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.yaml</code> to use your site’s title (and set the same in <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>index.md</code>)
-        </li>
-      
-        <li>
-          Change <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github/index.yaml</code> to change the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>baseUrl</code> (if your repository is named differently or you are using a CNAME). If you are using CNAME (with no sub-path), then you may get rid of the <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.deploy/github</code> layer entirely (be sure to update <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>publish.yaml</code> accordingly).
-        </li>
-      
-        <li>
-          Delete <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>README.md</code> (this file)
-        </li>
-      
-    </ul>
-  
-    <p class='mb-3'>
-      Checkout <a href='https://emanote.srid.ca/examples' class='text-red-600 hover:underline' target='_blank' rel='noopener'>examples</a> and <a href='https://emanote.srid.ca/demo' class='text-red-600 hover:underline' target='_blank' rel='noopener'>demo</a> for next steps.
-    </p>
-  <h2 id='running-using-nix' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Running using Nix</h2>
-    <p class='mb-3'>
-      To start the Emanote live server using Nix:
-    </p>
-  <div class='py-0.5 mb-3 text-sm'><pre><code class='sh language-sh'># If you using VSCode, you can also: Ctrl+Shift+B
-nix run</code></pre></div>
-    <p class='mb-3'>
-      To update Emanote version in flake.nix:
-    </p>
-  <div class='py-0.5 mb-3 text-sm'><pre><code class='sh language-sh'>nix flake lock --update-input emanote</code></pre></div>
-    <p class='mb-3'>
-      To build the static website via Nix:
-    </p>
-  <div class='py-0.5 mb-3 text-sm'><pre><code class='sh language-sh'>nix build -o result</code></pre></div><h2 id='ci' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>CI</h2>
-    <p class='mb-3'>
-      Two forms of CI are provided:
-    </p>
-  
-    <ul class='my-3 ml-6 space-y-1 list-disc'>
-      
-        <li>
-          GitHub Actions/Pages: see <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>.github/workflows/publish.yaml</code>
-        </li>
-      
-        <li>
-          Hercules CI via Nix: see <code class='py-0.5 px-1 rounded bg-gray-700 text-sm text-white'>*.nix</code>
-        </li>
-      
-    </ul>
   
   <!-- What goes in this file will appear below the note body-->
 </article>
@@ -283,7 +226,7 @@ nix run</code></pre></div>
             <div class='mb-4 overflow-auto text-sm text-gray-500'>
   
     <div class='pl-2 mt-2 border-l-2 border-red-200 hover:border-red-500'>
-      <div><p>A Git repo for users to get started with <a href='https://note.ema.srid.ca/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>Emanote</a>, with GitHub Pages deployment. See <a href='README' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>README</a>.</p></div>
+      <div><p>A templating for your next <a href='https://emanote.srid.ca/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>Emanote</a> website for hosting in <a href='github-pages' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>GitHub Pages</a>, editing in <a href='https://emanote.srid.ca/resources/vscode' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>Visual Studio Code</a>, etc.. For details, see <a href='https://github.com/srid/emanote-template' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>https://github.com/srid/emanote-template</a>.</p></div>
     </div>
   
 </div>
